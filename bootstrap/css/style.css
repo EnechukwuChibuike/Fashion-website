@@ -54,7 +54,7 @@
    font-size: 20px;
 }
 
-.row p:hover {
+.category:hover {
    background-color: black !important;
    color: white;
    transition: 1s all;
