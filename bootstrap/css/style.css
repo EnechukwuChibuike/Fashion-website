@@ -1,0 +1,162 @@
+* {
+   margin: 0%;
+   padding: 0%;
+}
+
+.nav {
+   padding: 20px 100px;
+}
+
+.link {
+   color: black !important;
+}
+
+.link:hover {
+   color: red !important;
+}
+
+/* ...............................  */
+
+.h4 {
+   border-left: 3px solid red;
+   padding-left: 20px;
+   font-weight: bold;
+   margin: 50px 0px;
+}
+
+.woman {
+   background: url(../../images/woman.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 100vh;
+   background-position: center;
+}
+
+.man {
+   background: url(../../images/man.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 50vh;
+   background-position: center;
+}
+
+.shoe {
+   background: url(../../images/shoes.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 50vh;
+   background-position: center;
+}
+
+.woman,
+.man,
+.shoe {
+   font-size: 20px;
+}
+
+.row p:hover {
+   background-color: black !important;
+   color: white;
+   transition: 1s all;
+}
+
+.brownShoe {
+   background: url(../../images/gray\ shoe.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 60vh;
+   background-position: center;
+}
+
+.blueShoe {
+   background: url(../../images/blue\ shoe.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 60vh;
+   background-position: center;
+}
+
+.Jacket {
+   background: url(../../images/jacket.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 60vh;
+   background-position: center;
+}
+
+.bag {
+   background: url(../../images/bag.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 60vh;
+   background-position: center;
+}
+
+.smoothCloth {
+   background: url(../../images/smooth\ cloth.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 60vh;
+   background-position: center;
+}
+
+.yellowJacket {
+   background: url(../../images/yellow\ jacket.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 60vh;
+   background-position: center;
+}
+
+.p p {
+   color: gray;
+   font-size: 15px;
+}
+
+.form:hover {
+   border: 1px solid red !important;
+}
+
+@media only screen and (max-width: 800px) {
+   .landing img {
+      display: none;
+   }
+
+   .landing {
+      background-image: url(../../images/landing.png),
+         linear-gradient(to right, #1f1c1e, #474545);
+      background-size: cover;
+      background-position: center;
+      color: white;
+      display: none;
+   }
+
+   .landing2 img {
+      display: none;
+   }
+
+   .landing2 {
+      background-image: url(../../images/shoes.png),
+         linear-gradient(to right, #1f1c1e, #474545);
+      background-size: cover;
+      background-position: center;
+      color: white;
+      display: none;
+   }
+
+   .man {
+      margin-top: 20px;
+   }
+
+   .nav {
+      padding: 20px;
+   }
+
+   .navIcons {
+      display: inline;
+   }
+
+   h1 {
+      font-size: 40px !important;
+   }
+}
